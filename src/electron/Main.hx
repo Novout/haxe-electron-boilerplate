@@ -38,8 +38,6 @@ class Main {
 			mainWindow.loadFile('./src/pages/app/app.html');
 
 			// win.webContents.openDevTools();
-
-			// var tray = new electron.main.Tray( '${__dirname}/icon-192.png' );
 		});
 
 		electron.main.App.on( window_all_closed, function(e) {
