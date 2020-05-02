@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container__header {
+  display: flex;
+  background: #303030;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+}
+
+.container__header--item {
+  background: none;
+  color: white;
+  border: none;
+}
+
+.container__header--item > a {
+  font-family: 'Poppins', 'sans-serif';
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.container__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 631px;
+  background: linear-gradient(0deg, rgba(235,164,120,1) 0%, rgba(255,106,0,1) 100%);
+}
+
+.container__description--title {
+  font-family: 'Poppins', 'sans-serif';
+  font-size: 2.5em;
+}
+
+.container__description__data {
+  color: black;
+  padding: 50px;
+}
+
+.container__description__data > div {
+  font-family: 'Roboto';
+  margin: 10px 0;
+}

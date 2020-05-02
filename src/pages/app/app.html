@@ -2,13 +2,27 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>hxelectron-demo</title>
-    <script defer src="../../../dist/app.js"></script>
+    <title>Haxe Electron Boilerplate</title>
+    <link rel="stylesheet" href="../../styles/app.css">
+    <link rel="stylesheet" href="../../styles/global.css">
   </head>
   <body>
-		<header>
-			<h1><a href="https://github.com/tong/hxelectron">hxelectron</a></h1>
-		</header>
-		<img class="logo" id="logo-haxe" src="../../assets/haxe-electron.png" width="50%"/>
+    <main id="app" class="container">
+      <header class="container__header">
+        <button class="container__header--item"><a href="https://github.com/tong/hxelectron">Haxe Electron</a></button>
+        <button class="container__header--item"><a href="https://github.com/Novout/haxe-electron-boilerplate">Boilerplate</a></button>
+      </header>
+      <section class="container__description">
+        <img id="logo-haxe" src="../../assets/haxe-electron.png" width="20%"/>
+        <h2 class="container__description--title">Haxe Electron</h2>
+        <section class="container__description__data">
+          <div id="system-version"></div>
+          <div id="node-version"></div>
+          <div id="electron-version"></div>
+          <div id="haxe-version"></div>
+        </section>
+      </section>
+    </main>
   </body>
+  <script defer src="../../../dist/app.js"></script>
 </html>
