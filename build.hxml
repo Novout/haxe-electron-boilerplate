@@ -1,0 +1,15 @@
+-lib electron
+-cp src
+-dce full
+-debug
+--each
+
+--next
+
+-js dist/main.js
+-main electron.Main
+
+--next
+
+-js dist/app.js
+-main pages.App

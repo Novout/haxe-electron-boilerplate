@@ -1,0 +1,15 @@
+{
+    "name": "haxe-electron-boilerplate",
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Boilerplate application",
+    "main": "dist/main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "electron": "^8.2.5",
+        "electron-json-storage": "^4.1.8"
+    }
+}
