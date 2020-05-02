@@ -1,15 +1,30 @@
 {
     "name": "haxe-electron-boilerplate",
+    "author": "Novout",
     "version": "0.1.0",
     "license": "MIT",
     "description": "Boilerplate application",
     "main": "dist/main.js",
     "scripts": {
-        "start": "electron ."
+        "start": "electron .",
+        "build": "electron-builder"
     },
     "dependencies": {
-        "axios": "^0.19.2",
         "electron": "^8.2.5",
+        "electron-builder": "^22.6.0",
         "electron-json-storage": "^4.1.8"
+    },
+    "build": {
+        "productName": "haxe-electron",
+        "appId": "your.id",
+        "mac": {
+            "category": "your.app.category.type"
+        },
+        "directories": {
+            "output": "build"
+        },
+        "files": [
+            "dist/electron/**/*"
+        ]
     }
 }
