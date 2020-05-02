@@ -5,6 +5,8 @@
 ## Commands
 
 ```sh
+haxelib install electron
+
 haxe build.hxml
 
 yarn && yarn start
