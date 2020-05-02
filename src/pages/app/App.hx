@@ -10,7 +10,7 @@ import electron.renderer.Remote;
 class App {
 
     static inline function setText( id : String, text : String ) {
-        document.getElementById( id ).textContent = text;
+        document.querySelector('#' + id).textContent = text;
     }
 
     static function main() {
