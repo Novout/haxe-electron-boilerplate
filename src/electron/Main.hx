@@ -29,7 +29,7 @@ class Main {
 
 			mainWindow.setResizable(false);
 			
-			mainWindow.loadFile('./src/pages/app.html');
+			mainWindow.loadFile('./src/pages/app/app.html');
 
 			// win.webContents.openDevTools();
 

@@ -12,4 +12,4 @@
 --next
 
 -js dist/app.js
--main pages.App
+-main pages.app.App

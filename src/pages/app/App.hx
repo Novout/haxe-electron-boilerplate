@@ -1,4 +1,4 @@
-package pages;
+package pages.app;
 
 import js.Browser.console;
 import js.Browser.document;
