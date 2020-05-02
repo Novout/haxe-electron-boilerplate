@@ -11,6 +11,7 @@ class App {
 
     static inline function setText( id : String, text : String ) {
         document.querySelector('#' + id).textContent = text;
+        console.log(text);
     }
 
     static function main() {

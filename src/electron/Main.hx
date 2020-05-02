@@ -14,10 +14,16 @@ class Main {
 
 			var mainWindow = new BrowserWindow({
 				width: 1080, 
-				height: 720,
-				frame: true,
+                height: 720,
+                center: true,
+                frame: true,
+                movable: true,
+                closable: true,
 				webPreferences: {
-					nodeIntegration: true
+                    nodeIntegration: true,
+                    defaultFontFamily: {
+                        standard: 'Roboto'
+                    },
 				}
 			});
 
