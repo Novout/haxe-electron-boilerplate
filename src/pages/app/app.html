@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Haxe Electron Boilerplate</title>
     <link rel="stylesheet" href="../../styles/app.css">
     <link rel="stylesheet" href="../../styles/global.css">
@@ -21,8 +23,10 @@
           <div id="electron-version"></div>
           <div id="haxe-version"></div>
         </section>
+        <button id="modal" class="container__description--modal">Modal Open</button>
       </section>
     </main>
   </body>
   <script defer src="../../../dist/app.js"></script>
+  <script defer src="./remote.js"></script>
 </html>

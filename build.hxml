@@ -13,3 +13,8 @@
 
 -js dist/app.js
 -main pages.app.App
+
+--next
+
+-js dist/modal.js
+-main pages.modal.Modal
