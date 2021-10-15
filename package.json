@@ -10,7 +10,7 @@
         "build": "electron-builder"
     },
     "dependencies": {
-        "electron": "^9.4.0",
+        "electron": "^11.5.0",
         "electron-builder": "^22.6.0",
         "electron-json-storage": "^4.1.8"
     },
